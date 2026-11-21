@@ -1,10 +1,11 @@
 # Week-3-cyber-security
-Password cracking
+Week 3 – Password Cracking Lab
+
 Project Overview
 
 This project explores password recovery techniques using two different approaches as part of my cybersecurity practical work.
 
-The practical involved working with PDF password protection, extracting password hashes, using John the Ripper and testing an online password-cracking tool.
+The practical involved working with a password-protected PDF, extracting password hashes, using John the Ripper and testing an online password-cracking tool.
 
 Objectives
 
@@ -22,41 +23,23 @@ Understand the importance of wordlists in password-cracking attempts.
 
 Tools and Technologies
 
-Tool
+Kali Linux – Linux environment used for the practical.
 
-Purpose
+John the Ripper – Password-cracking tool.
 
-Kali Linux
+Johnny – Graphical interface for John the Ripper.
 
-Linux environment for the practical
+RockYou wordlist – Common-password wordlist.
 
-John the Ripper
+Networkwalks Hash Calculator – Used to generate and inspect hashes.
 
-Password-cracking tool
+Networkwalks Password Cracker – Used to test password recovery.
 
-Johnny
-
-Graphical interface for John the Ripper
-
-RockYou wordlist
-
-Common-password wordlist
-
-Networkwalks Hash Calculator
-
-Hash generation and analysis
-
-Networkwalks Password Cracker
-
-Online password-cracking experiment
-
-Firefox
-
-Accessing online tools
+Firefox – Used to access online tools.
 
 Practical Module 1 – John the Ripper
 
-Steps performed
+Steps Performed
 
 Opened Kali Linux.
 
@@ -78,11 +61,11 @@ Result
 
 Johnny displayed a successful result, showing that the hash had been cracked.
 
-Evidence: Add screenshots showing the terminal setup, extracted hash, Johnny interface and cracking result.
+Evidence: Screenshots of the terminal setup, extracted hash, Johnny interface and cracking result.
 
 Practical Module 2 – Networkwalks Tools
 
-Steps performed
+Steps Performed
 
 Opened the Networkwalks Hash Calculator.
 
@@ -102,7 +85,7 @@ The online tool completed 100 attempts but did not find a match.
 
 Checked the RockYou wordlist for password1.
 
-Independently verified the password by opening the PDF successfully.
+Independently verified the password by successfully opening the PDF.
 
 Result
 
@@ -110,11 +93,11 @@ The online Password Cracker did not find a match within its 100 attempts. Howeve
 
 Challenges Faced
 
-Initially, Johnny was not installed, so I had to update the Kali package list and install it.
+Johnny was initially missing, so I updated Kali's package list and installed it.
 
 I needed to extract the RockYou wordlist before using it.
 
-Extracting the correct PDF hash required selecting the PDF hash format.
+Extracting the correct PDF hash required selecting the correct hash format.
 
 The Networkwalks Password Cracker did not find a match within its limited 100 attempts.
 
